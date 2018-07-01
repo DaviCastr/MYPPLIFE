@@ -1,0 +1,111 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Jua', sans-serif;
+}
+
+body,
+html {
+    background-color: #D8EBD8;
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+    font-family: 'Jua', sans-serif;
+}
+
+div#Menu a.w3-bar-item {
+    font-size: 22px;
+}
+
+div.bgimg-1 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../img/papel.jpg");
+    min-height: 600px;
+}
+
+div.bgimg-2 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../img/papel.jpg");
+    min-height: 400px;
+}
+
+@media only screen and (max-device-width: 1024px) {
+    div.bgimg-1,
+    div.bgimg-2 {
+        background-attachment: scroll;
+    }
+}
+
+.w3-wide {
+    letter-spacing: 10px;
+}
+
+.w3-hover-opacity {
+    cursor: pointer;
+}
+
+form input:focus {
+    box-shadow: 1px blue;
+}
+
+i.icone {
+    width: 30px;
+}
+
+#teste {
+    -webkit-transform: scale(0.9, 0.9);
+    -webkit-transition: 0.5s;
+}
+
+#teste:hover {
+    -webkit-transform: scale(1, 1);
+}
+
+div.conteudo {
+    text-align: justify;
+    height: 300px !important;
+    overflow: auto;
+}
+
+div.conteudo p {
+    text-align: justify;
+}
+
+div.conteudoI {
+    max-height: 320px;
+    overflow-y: auto;
+}
+
+img.imgslide {
+    display: none;
+    width: 100%;
+    min-height: 250px;
+    max-height: 400px;
+}
+
+.w3-left,
+.w3-right,
+.w3-badge {
+    cursor: pointer
+}
+
+.w3-badge {
+    height: 13px;
+    width: 13px;
+    padding: 0
+}
+
+div#slides {
+    margin-bottom: 4%;
+    margin-top: 3%;
+}
