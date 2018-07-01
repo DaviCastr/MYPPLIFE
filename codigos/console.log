@@ -1,0 +1,1 @@
+SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'matricula' in field list is ambiguous

@@ -1,0 +1,1 @@
+<?php session_start(); ?><i class='fa fa-user'></i> <?php  echo $_SESSION['nome_usuario']; ?>
